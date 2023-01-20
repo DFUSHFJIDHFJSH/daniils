@@ -1,0 +1,148 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+
+	int i = 0;
+
+
+	do {
+		i++;
+	  cout << i;
+	} while (i <= 8);
+
+		return 0;
+}
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int i = 0;
+	string username = "Daniils", u1;
+	do {
+		i++;
+	  cin >> u1;
+	  if (u1 == username) { exit(0); }
+	} while (i < 5);
+	cout << "out of attempts";
+		return 0;
+}
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+/*	int i = 0;
+	string username = "Daniils", u1;
+	do {
+		i++;
+	  cin >> u1;
+	  if (u1 == username) { exit(0); }
+	} while (i < 5);
+	cout << "out of attempts";*/
+		
+	int i = 0;
+	do {
+		i++;
+		cout << i << " " << i * i * i<<endl;
+	} while (i < 10);
+
+	return 0;
+}
+#include <iostream>
+using namespace std;
+
+int main() {
+/*	int i = 0;
+	string username = "Daniils", u1;
+	do {
+		i++;
+	  cin >> u1;
+	  if (u1 == username) { exit(0); }
+	} while (i < 5);
+	cout << "out of attempts";*/
+		
+	int i = 0;
+	do {
+		i++;
+		cout << i << " " << i * i * i<<endl;
+	} while (i < 10000000000000000);
+
+	return 0;
+}
+#include <iostream>
+using namespace std;
+int main() {
+	//Local variable declaration:
+	string myname;
+
+
+	// do loop execution
+	do {
+		cout << "Enter my name" <<endl;
+		cin >> myname;
+		if (myname == "no") { cout << "yes!"; };
+		if (myname == "Galkovs") { cout << "No its my surname!!"; };
+	} while (myname != "Daniils");
+
+	return 0;
+}
+
+#include <iostream>
+using namespace std;
+bool isNumber (string s)
+{
+	for (int i = 0; i < s.length(); i++)
+		if (isdigit(s[i]) == false)
+			return false;
+
+	return true;
+}
+int main() {
+	//Local variable declaration:
+	string myname;
+
+	// do loop execution
+
+	do {
+		cout << "Enter my name" << endl;
+		cin >> myname;
+		if (isNumber(myname)) { cout << "That is a number! ";};
+	} while (myname != "Daniils");
+
+	return 0;
+#include <iostream>
+using namespace std;
+bool isNumber (string s)
+{
+	for (int i = 0; i < s.length(); i++)
+		if (isdigit(s[i]) == false)
+			return false;
+
+	return true;
+}
+int main() {
+	string myname, parole;
+
+	do {
+		cout << "Enter my name and password" << endl;
+		cin >> myname >> parole;
+		if (isNumber(myname)) { cout << "That is a number! ";};
+	} while (myname != "Daniils"||parole!="123");
+
+	return 0;
+}
+#include <iostream>
+using namespace std;
+int main() {
+if (number >= 20) { cout << "Correct input" << endl; }
+else cout << "Incorrect input" << endl;
+cout << "End of program";
+if (number >= 100) (number <= 30) { cout << "Correct input" << endl; };
+else cout << "Incorrect input" << endl;
+cout << "End of program";
+return 0;
+}
