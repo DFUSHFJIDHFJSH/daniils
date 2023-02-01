@@ -1,0 +1,149 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a = 0;
+	int b = 0;
+	cin >> a;
+	cout << endl;
+	cin >> b;
+	cout << endl;
+	if (a > b)
+	{
+		cout << a << " > " << b << endl;
+	}
+	if (b > a)
+	{
+		cout << b << " > " << a << endl;
+	}
+	if (b == a)
+	{
+		cout << b << " and " << a << " are equal" << endl;
+	}
+	if (a > 0)
+	{
+		cout << a << " is positive" << endl;
+	}
+	if (a <= 0)
+	{
+		cout << a << " is negative " << a << endl;
+	}
+	if (a == 0)
+	{
+		cout << a << " = 0" << endl;
+	}
+	if (b > 0)
+	{
+		cout << b << " is positive" << endl;
+	}
+	if (b <= 0)
+	{
+		cout << b << " is negative " << a << endl;
+	}
+	if (b == 0)
+	{
+		cout << b << " = 0" << endl;
+	}
+	if (a % 2 == 0)
+	{
+		cout << a << " ir para skaitlis" << endl;
+	}
+	if (a % 2 != 0)
+	{
+		cout << a << " ir nepara skaitlis" << endl;
+	}
+	if (b % 2 == 0)
+	{
+		cout << b << " ir para skaitlis" << endl;
+	}
+	if (b % 2 != 0)
+	{
+		cout << b << " ir nepara skaitlis" << endl;
+	}
+}
+ 
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+	vector<int> a{ 80,40,100,70,90,10,50 };
+
+	vector <string> name{ "Anna", "Arturs", "Daniils", "Romans", "Liza", "Arzu", "Fidana" };
+	cout << name[0] << " " << a[0] << endl;
+	cout << name[1] << " " << a[1] << endl;
+	cout << name[2] << " " << a[2] << endl;
+	cout << name[3] << " " << a[3] << endl;
+	cout << name[4] << " " << a[4] << endl;
+	cout << name[5] << " " << a[5] << endl;
+	cout << name[6] << " " << a[6] << endl;
+}
+
+#include <iostream>
+using namespace std;
+int main() {
+	int side1, side2, side3;
+
+	cout << "Enter triangle first side :" << endl;
+	cin >> side1;
+	cout << "Enter triangle second side :" << endl;
+	cin >> side2;
+	cout << "Enter triangle third side :" << endl;
+	cin >> side3;
+
+	if (side1 == side2 == side3) {
+		cout << "triangle is regular" << endl;
+	}
+	else if (side1 == side2 || side1 == side3 || side2 == side3) {
+		cout << "triangle is side equal"<< endl;
+	}
+}
+
+
+#include <iostream>
+using namespace std;
+int main(){
+{
+case 1:
+cout << "January" << endl;
+break;
+case 2:
+cout << "February" << endl;
+break;
+case 3:
+cout << "March" << endl;
+break;
+case 4:
+cout << "April" << endl;
+break;
+case 5:
+cout << "May" << endl;
+break;
+case 6:
+cout << "June" << endl;
+break;
+case 7:
+cout << "July" << endl;
+break;
+case 8:
+cout << "August" << endl;
+break;
+case 9:
+cout << "September" << endl;
+break;
+case 10:
+cout << "October" << endl;
+break;
+case 11:
+cout << "November" << endl;
+break;
+case 12:
+cout << "December" << endl;
+break;
+default:
+cout << "your sonth is not correct" << endl;
+break;
+}
+return 0;
+}
+
