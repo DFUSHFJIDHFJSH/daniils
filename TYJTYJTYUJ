@@ -1,0 +1,48 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+	vector <int> num{ 1, 2, 3, 1, 2 };
+	if (num[0] == 1)cout << " 1. veta ir 1 ";
+	if (num[1] == 1)cout << " 2. veta ir 1 ";
+	if (num[2] == 1)cout << " 3. veta ir 1 ";
+	if (num[3] == 1)cout << " 4. veta ir 1 ";
+	if (num[4] == 1)cout << " 5. veta ir 1 ";
+	if (num[0] == 2)cout << " 1. veta ir 2 ";
+	if (num[1] == 2)cout << " 2. veta ir 2 ";
+	if (num[2] == 2)cout << " 3. veta ir 2 ";
+	if (num[3] == 2)cout << " 4. veta ir 2 ";
+	if (num[4] == 2)cout << " 5. veta ir 2 ";
+	if (num[0] == 3)cout << " 1. veta ir 3 ";
+	if (num[1] == 3)cout << " 2. veta ir 3 ";
+	if (num[2] == 3)cout << " 3. veta ir 3 ";
+	if (num[3] == 3)cout << " 4. veta ir 3 ";
+	if (num[4] == 3)cout << " 5. veta ir 3 ";
+	if (num[0] == 4)cout << " 1. veta ir 4 ";
+	if (num[1] == 4)cout << " 2. veta ir 4 ";
+	if (num[2] == 4)cout << " 3. veta ir 4 ";
+	if (num[3] == 4)cout << " 4. veta ir 4 ";
+	if (num[4] == 4)cout << " 5. veta ir 4 ";
+
+	cout << num[0] << num[1] << num[2] << num[3] << num[4];
+
+		return 0;
+}
+
+#include <iostream>
+#include <vector>
+using namespace std;
+int main() {
+    string atb, tel;
+    vector <string>sk{ "+1", "+44", "+86","+91", "+1", "+61" };
+    vector<string>ct{ "USA ","UK ","China ","India ","Canada ","Australia " };
+    cin >> atb >> tel;
+    if (sk[0] == atb) { cout << ct[0] << " " << atb << tel << endl; }
+    if (sk[1] == atb) { cout << ct[1] << " " << atb << tel << endl; }
+    if (sk[2] == atb) { cout << ct[2] << " " << atb << tel << endl; }
+    if (sk[3] == atb) { cout << ct[3] << " " << atb << tel << endl; }
+    if (sk[4] == atb) { cout << ct[4] << " " << atb << tel << endl; }
+   if (sk[5] == atb) { cout << ct[5] << " " << atb << tel << endl; }
+}
+
